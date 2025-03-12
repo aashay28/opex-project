@@ -1,7 +1,12 @@
-<script setup></script>
-
 <template>
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <Header />
+  <div class="p-8">
+    <h1 class="text-2xl font-semibold text-gray-800 p-4">Finances</h1>
+    <Table />
+  </div>
 </template>
 
-<style scoped></style>
+<script setup>
+import Header from "./components/Header.vue";
+import Table from "./components/Table.vue";
+</script>
