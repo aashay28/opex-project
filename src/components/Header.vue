@@ -5,7 +5,9 @@
     <div class="flex items-center space-x-8">
       <span class="text-xl font-bold text-gray-800">OPEX</span>
       <nav class="hidden md:flex space-x-6">
-        <a href="#" class="text-gray-600 hover:text-black font-medium">Home</a>
+        <a href="#" class="text-gray-600 hover:text-black font-medium"
+          >Dashboard</a
+        >
         <a href="#" class="text-gray-900 font-medium border-b-2 border-black"
           >Finances</a
         >

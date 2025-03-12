@@ -8,7 +8,7 @@
               v-for="(col, index) in headers"
               :key="index"
               class="p-2 text-left border border-gray-300"
-              :class="index === 1 ? 'min-w-50' : 'min-w-30'"
+              :class="index === 1 || index === 0 ? 'min-w-50' : 'min-w-30'"
             >
               {{ col }}
             </th>
